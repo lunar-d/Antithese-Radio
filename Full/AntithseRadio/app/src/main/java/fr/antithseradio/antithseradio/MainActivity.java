@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 new radioFragment()).commit();
 
 
-        /* playerView=findViewById(R.id.player_view);
+       /* playerView=findViewById(R.id.player_view);
 
         player= ExoPlayerFactory.newSimpleInstance( this,
                 new DefaultTrackSelector());
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 .createMediaSource(Uri.parse("https://r2---sn-25glen7e.googlevideo.com/videoplayback?signature=B225B7FD619D06C74359E66D41E945A0811645AB.AFE1C6D794F09B98A76EA1DF99D58FCCCA52E789&fvip=2&sparams=aitags%2Cclen%2Cdur%2Cei%2Cgir%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Ckeepalive%2Clmt%2Cmime%2Cmm%2Cmn%2Cms%2Cmv%2Cotfp%2Cpl%2Crequiressl%2Csource%2Cexpire&itag=136&ei=IABBXIj8O8ySmLAP1MihiAw&key=yt6&pl=42&mime=video%2Fmp4&source=youtube&c=WEB&otfp=1&keepalive=yes&expire=1547785345&aitags=133%2C134%2C135%2C136%2C160&lmt=1531194202984590&mn=sn-25glen7e%2Csn-25ge7nsl&requiressl=yes&ipbits=0&mm=31%2C29&id=o-AJIoEOoBXsH4k57ZnJyUnw_jSpop12JsckCdbmB3GfOz&gir=yes&initcwndbps=738750&ip=2a01%3Ae0a%3Af9%3A5f0%3Ac0fd%3A35ee%3A9a91%3Aaafd&clen=12757657&mv=m&dur=794.320&mt=1547763652&ms=au%2Crdu&alr=yes&cpn=EfsuJj6VlE4MPfXt&cver=2.20190115&rn=370&rbuf=38703")); //URL MEDIA
 
         player.prepare(mediaSource);
-        player.setPlayWhenReady(false); */
+        player.setPlayWhenReady(false);*/
     }
 
 
