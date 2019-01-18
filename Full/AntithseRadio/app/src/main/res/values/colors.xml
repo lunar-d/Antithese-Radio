@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fafafa</color>
+    <color name="colorPrimaryDark">#c7c7c7</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="barcolorPrimary">#311A91</color>
+    <color name="barcolorPrimaryDark">#000062</color>
+    <color name="barcolorAccent">#6745c2</color>
+</resources>
