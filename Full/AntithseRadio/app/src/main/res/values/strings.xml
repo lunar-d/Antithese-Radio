@@ -3,7 +3,12 @@
     <string name="title_radio">Radio</string>
     <string name="title_podcast">Podcast</string>
     <string name="title_news">News</string>
+    <string name="title_more">Plus</string>
     <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to PLAYER -->
+    <string name="artiste">artiste</string>
+    <string name="titre">titre</string>
 
     <!-- Strings related to Settings -->
 

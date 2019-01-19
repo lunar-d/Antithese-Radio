@@ -1,5 +1,6 @@
 package fr.antithseradio.antithseradio;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -55,6 +56,12 @@ public class MainActivity extends AppCompatActivity {
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                             new podcastFragment()).commit();
                     return true;
+                case R.id.navigation_more:
+                    setTitle(R.string.title_more);
+                    mTextMessage.setText(R.string.title_more);
+                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                            new moreFragment()).commit();
+                    return true;
             }
             return false;
         }
@@ -71,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                 new radioFragment()).commit();
+
+
 
 
        /* playerView=findViewById(R.id.player_view);
